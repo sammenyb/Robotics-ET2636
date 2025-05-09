@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['robot', 'target']
+
+roboflow:
+  workspace: robotics-4yopy
+  project: my-first-project-raj5r
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/robotics-4yopy/my-first-project-raj5r/dataset/1
